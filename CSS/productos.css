@@ -1,0 +1,144 @@
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;  
+  
+}
+
+.columm {
+  margin: 0 20px;
+}
+
+.img-h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.contenido h3, .contenido p {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+.contenido h3{
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.Titulo{
+    font-family:cursive;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 8px 0; 
+    padding: 8px 0; 
+}
+
+.Titulo::before, .Titulo::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid grey;
+    margin: 0 25px; 
+}
+
+.filtrado-container h4 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+}
+
+.card-products {
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .card-products img {
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+    border: 3px solid #ddd;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+  
+ .card-products h3, .card-products .price{
+    margin-top: 10px;
+  }
+
+ .card-products h3, .card-products .price, .card-products img{
+    margin: 0px;
+  }
+
+  .card-products h3{
+    background-color: #FF9AA2;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .card-products .price{
+    margin-top: 7px;
+    background-color: #E2F0C8;
+    border-radius: 5px;
+  }
+
+.filtrado-container{
+    display: flex;
+    flex-direction: column;
+}
+
+ .botonFiltrado{
+    margin-bottom: 7px;
+    width: 250px;
+    background-color: #E2F0C8;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 17px;
+ }
+
+ .botonAll{
+    margin-top: 12px;
+    border: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: transparent;
+ }
+
+ .acomodar{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+ }
+
+ .botonFiltrado:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  color: grey;
+ }
+ 
+ .botonAll:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  color: #FF9AA2;
+ }
+
+ .card-products img:hover{
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  border: 2px solid #C7CEEA;
+ }

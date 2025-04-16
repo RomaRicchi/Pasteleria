@@ -1,0 +1,117 @@
+.bienvenida {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.bienvenida p {
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: "Catamaran", sans-serif;
+}
+
+.bienvenida h1.dancing-script-title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: 70px;
+    font-weight: 700;
+    font-style: normal;
+    color: #333;
+    font-size: 50px;
+  }
+
+
+
+
+.nos h2.dancing-script-title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.Carrusel {
+
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Carrusel h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+
+.nextButton, .backButton {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button.buttonB, button.buttonN{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.backButton {
+    left: 0;
+}
+
+.nextButton {
+    right: 0;
+}
+
+
+
+.Carrusel img {
+    width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    height: 400px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen para que encaje sin distorsión */
+}
+
+.nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0; /* Ajusta el espacio superior e inferior */
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+.nosotros h2 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.nosotros p {
+
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; /* Aproximadamente 48px */
+ }
+
+ .nosotros-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.nosotros-text {
+    max-width: 800px;
+}
+
+
+
